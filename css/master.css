@@ -66,8 +66,8 @@ body {
 
 /* End Global Rules */
 /* Start Header */
-.header {
-    padding: 20px;
+header {
+    padding: 17px 0;
 }
 
 .header .container {
@@ -168,7 +168,7 @@ body {
 .landing {
     /* background-image: url(../Midea/imgs/landing.png); */
     /* background-size: cover; */
-    height: calc(100vh - 100px);
+    height: calc(100vh - 40px);
     background-color: lightgray;
 }
 
@@ -299,11 +299,16 @@ body {
     }
 
     .special-heading {
-        font-size: 80px;
+        font-size: 55px;
+        margin: 0 0 10px 0;
+    }
+
+    .special-heading+p {
+        font-size: 15px;
     }
 
     .services .services-content .two .image {
-        text-align: center;
+        display: none;
     }
 }
 
@@ -361,7 +366,8 @@ body {
 }
 
 .about .container .about-content .image-a img {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
 }
 
 
@@ -408,7 +414,7 @@ body {
     }
 
     .about .container .about-content .image-a img {
-        width: 330px;
+        width: 100%;
     }
 }
 
@@ -456,6 +462,13 @@ body {
     font-size: 20px;
     color: #2c4755;
     transition: .3s;
+}
+
+.contact .info .social a {
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contact .info .social #facebook:hover {
