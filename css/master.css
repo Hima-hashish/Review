@@ -321,7 +321,7 @@ header {
 }
 
 .portfolio .portfolio-content img {
-    width: 300px;
+        width: 100%;
 }
 
 .portfolio .portfolio-content {
@@ -335,6 +335,10 @@ header {
 
 .portfolio .portfolio-content .info {
     text-align: center;
+        background: white;
+    margin-top: -5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .portfolio .portfolio-content .info h3 {
